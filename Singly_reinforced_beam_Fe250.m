@@ -14,6 +14,8 @@ i = i+1;
 endfor
 
 n = .53;
+u=0.36*n;
+k= u*(1-0.42*n);
 TableBeam(i,1) = n;
 TableBeam(i,2) = 0.36*n;
 TableBeam(i,3) = u*(1-0.42*n);
